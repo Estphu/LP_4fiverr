@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500&display=swap');
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.banner-image{
+	background: linear-gradient(rgba(85, 71, 130, 0.8), rgba(147, 116, 183, 0.8));
+    background-size: cover;
+    background-position: center;
+}
+.banner-phone-image img{
+	width:300px;
+}
+.banner-image2{
+	background:#edecea;
+}
+.banner-image4{
+	background:#eeeef0;
+}
+.banner-image3{
+	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/banner-image-eight.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.icon-circle{
+	transition:all 0.3s ease;
+	width:70px;
+	height:70px;
+	border-radius:70px;
+	font-size:15px;
+	border:2px solid #fff;
+	cursor:pointer;
+	}
+	.icon-circle:hover{
+	box-shadow:0px 0px 5px 8px rgba(0,0,0,0.08);
+	border:1px solid #fff;
+	}
+	.icon-circle:hover i{
+	color:#fff;
+	}
+	.icon-circle a i{
+	color:#fff;
+	}
+.form-control{
+line-height:49px;
+height:49px;	
+}
+::placeholder{
+font-size:12px;
+font-weight:bold;
+color:#ddd;	
+}
+ul.dd{
+list-style-type:none;
+margin:0;
+padding:0;	
+}
+ul.dd li{
+padding:5px 0;
+font-weight:500;	
+}
+ul.dd li a{
+color:rgba(255,255,255,0.8);	
+}
+.rounded{
+	border-radius:40px !important;
+}
+.btn {
+  padding: 12px 30px;
+  font-size: 15px;
+}
+
+.btn-primary {
+  background: #00d463;
+  border-color: #00d463 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary .open>.dropdown-toggle.btn-primary {
+  background: #00c059;
+  border-color: #00c059;
+  box-shadow: 0px 8px 20px -6px rgba(0, 212, 99, 0.6);
+}
+
+
+.bg-feature {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.social a{
+	color: #00d463;
+	background-color: #fff;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	padding:17px 20px;
+	transition: all 0.3s ease;
+}
+.social a:hover{
+	background-color: #00d463;
+	color: #fff;
+}
+
+.feature-title {
+  color: #00d463;
+}
+
+.heading::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background: #00d463;
+  position: absolute;
+  bottom: -30px;
+}
+
+.feature-icon {
+  color: #d4d4d4;
+}
+
+@media (max-width: 768px) {
+  .bg-feature {
+    height: auto;
+    padding: 70px 0;
+  }
+}
